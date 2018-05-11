@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\Slide_20172\\NLP\\btl\\stock_chatbot\\models\\model.tflearn"
+all_model_checkpoint_paths: "E:\\Slide_20172\\NLP\\btl\\stock_chatbot\\models\\model.tflearn"

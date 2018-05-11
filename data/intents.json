@@ -1,0 +1,163 @@
+{
+	"intents":[
+		{
+			"tag":"tạm biệt",
+			"patterns":[
+				"tạm biệt",
+				"cảm ơn bạn",
+				"hẹn gặp lại"
+			],
+			"response":[
+				"tạm biệt",
+				"hẹn gặp lại"
+			]
+		},
+		{
+			"tag":"giờ đóng cửa",
+			"patterns":[
+				"hôm nay mấy giờ đóng cửa",
+				"giờ đóng cửa là bao giờ",
+				"mấy giờ đóng cửa",
+				"mấy giờ kết thúc phiên giao dịch",
+				"giao dịch kết thúc mấy giờ",
+				"khi nào kết thúc"
+			],
+			"response":[
+				"hôm nay giờ kết thúc là :"
+			]
+		},
+		{
+			"tag":"giờ mở cửa",
+			"patterns":[
+				"hôm nay mấy giờ mở cửa",
+				"phiên giao dịch bắt đầu lúc mấy giờ",
+				"mở của khi nào",
+				"khi nào mở cửa",
+				"khi nào ở đây đóng cửa"
+			],
+			"response":[
+				"giờ mở cửa là :"
+			]
+		},
+		{
+			"tag":"giá cả",
+			"patterns":[
+				"giá cổ phiếu bao nhiêu",
+				"giá cổ phiếu là bao nhiêu",
+				"giá cổ phiếu"
+			],
+			"response":[
+				"giá"
+			]
+		},
+		{
+			"tag":"hôm nay",
+			"patterns":[
+				"hôm nay là thứ mấy ",
+				"hôm nay là ngày mấy ",
+				"hôm nay là mùng mấy"
+			],
+			"response":[
+				"hôm nay"
+			]
+		},
+		{
+			"tag":"cổ phiếu tăng",
+			"patterns":[
+				"giá cổ phiếu hôm nay tăng hay giảm",
+				"giá cổ phiếu hôm nay tăng bao nhiêu"
+			],
+			"response":[
+				"tăng"
+			]	
+		},
+		{
+			"tag":"cổ phiếu giảm",
+			"patterns":[
+				"giá cổ phiếu hôm nay giảm à",
+				"giá cổ phiếu hôm nay xuống à",
+				"giá cổ phiếu hôm nay còn bao nhiêu",
+				"giá cổ phiếu hôm nay giảm bao nhiêu"
+			],
+			"response":[
+				"giảm"
+			]
+		},
+		{
+			"tag":"bao nhiêu công ty",
+			"patterns":[
+				"hôm nay có bao nhiêu công ty lên sàn giao dịch",
+				"hôm nay có bao nhiêu công ty",
+				"công ty giao dịch",
+				"công ty hôm nay"
+			],
+			"response":[
+				"công ty"
+			]
+		},
+		{
+			"tag":"dự đoán",
+			"patterns":[
+				"tăng hay giảm",
+				"hôm nay tăng hay giảm",
+				"ngày mai tăng hay giảm",
+				"tương lai tăng hay giảm"
+			],
+			"response":[
+				"dự đoán :"
+			]
+		},
+		{
+			"tag":"giá mua",
+			"patterns":[
+				"giá mua là bao nhiêu",
+				"giá mua bao nhiêu"
+			],
+			"response":[
+				"giá mua"
+			]
+		},
+		{
+			"tag":"giá bán",
+			"patterns":[
+				"giá mua là bao nhiêu",
+				"giá mua bao nhiêu"
+			],
+			"response":[
+				"giá bán"
+			]
+		},
+		{
+			"tag":"thua lỗ",
+			"patterns":[
+				"công ty thua lỗ",
+				"công ty phá sản",
+				"bao nhiêu công ty phá sản"
+			],
+			"response":[
+				"công ty thua lỗ :"
+			]
+		},
+		{
+			"tag":"loại chứng khoán",
+			"patterns":[
+				"có bao nhiêu loại chứng khoán",
+				"bao nhiêu chứng khoán"
+			],
+			"response":[
+				"số loại chứng khoán:"
+			]
+		},
+		{
+			"tag":"bao nhiêu cổ phiếu",
+			"patterns":[
+				"công ty này có bao nhiêu cổ phiếu",
+				"công ty cổ phiếu",
+				"số cổ phiếu công ty"
+			],
+			"response":[
+				"số cổ phiếu công ty"
+			]
+		}
+	]
+}
